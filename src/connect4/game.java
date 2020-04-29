@@ -48,7 +48,7 @@ public class game {
         Token t = new Token(265,65);
         t.setFillColor(Color.white);
         canvas.add(t);
-        canvas.onClick(event -> t.setFillColor(col));
+        canvas.onClick(event -> t.setFillColor(col));//figure out how to make it so that it can change any token's color
         addPlayerButton(Color.red,"Player 1",100);
         addPlayerButton(Color.yellow,"Player 2",200);
 

@@ -12,6 +12,7 @@ public class game {
     private static final int CANVAS_HEIGHT = 800;
     private CanvasWindow canvas;
 
+
     grid g = new grid();
 
     public game(){
